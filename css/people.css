@@ -1,0 +1,250 @@
+/* General */
+
+body {
+    background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
+    color: #382a40;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+.container {
+    width: 924px;
+    margin: 0 auto;
+    padding: 30px 24px;
+    text-align: center;
+}
+
+
+/* Typography */
+
+h1,
+h2 {
+    color: #382a40;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Love Ya Like A Sister', cursive;
+    line-height: 44px;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 0 0 20px;
+    background: url('../images/brush.png') bottom center no-repeat;
+}
+
+h1 em {
+    font-style: normal;
+    color: #382a40;
+}
+
+h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+p.lead {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin: 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #050505;
+}
+
+a:hover {
+    color: #382a40;
+}
+
+hr {
+    border: none;
+    height: 33px;
+    width: 333px;
+    margin: 30px auto;
+    background: url('../images/header_21.png') center center no-repeat;
+}
+
+
+/* Header */
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 141px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #382a40;
+    padding-top: 20px;
+    background: url('../images/brush-.png') top center no-repeat;
+}
+
+header nav ul li#logo a {
+    display: block;
+    width: 157px;
+    height: 174px;
+    background: url('../images/ARTIST.jpg') center center no-repeat;
+    text-indent: -9999px;
+}
+
+header nav ul li#logo a:hover {
+    padding: 0px;
+    background: url('../images/ARTIST.jpg') center center no-repeat;
+}
+
+
+/* Hero */
+
+#hero {
+    background: #382a40 url('../images/bg-tile-yellow.gif') top left repeat;
+}
+
+#hero .container {
+    position: relative;
+}
+
+#story-excerpt {
+    width: 530px;
+    margin-right: 24px;
+    float: left;
+    font-size: 16px;
+}
+
+#best-donut {
+    background: url('../images/badge-.png') left center no-repeat;
+    padding: 30px 0 30px 130px;
+    float: left;
+    width: 240px;
+}
+
+
+/* News & Events */
+
+#articles {
+    margin: 0 24px;
+    text-align: center;
+}
+
+#news-events article {
+    margin: 20px 0;
+    padding-left: 55px;
+}
+
+#news-events h2 {
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+}
+
+#france,
+#germany,
+#spain,
+#india,
+#england,
+#italy {
+    height: 40px;
+    background: url("../images/people-ico.png") top left no-repeat;
+}
+
+#news-events header time {
+    color: #382a40;
+    font-size: 12px;
+}
+
+#news-events section.excerpt {
+    margin: 10px 0;
+}
+
+#news-events footer {
+    font-size: 12px;
+}
+
+
+/* Footer */
+
+footer.main {
+    background: #382a40 url('../images/bg-tile-yellow.gif') top left repeat;
+    color: #f2f3ee;
+    padding: 30px 0;
+}
+
+footer.main a:hover {
+    color: #f2f3ee;
+}
+
+#uncopyright,
+#credits {
+    width: 240px;
+    float: left;
+    padding: 10px 0 10px 50px;
+}
+
+#uncopyright {
+    background: url('../images/icon-recycle.png') top left no-repeat;
+}
+
+#credits {
+    background: url('../images/world.jpg') center left no-repeat;
+    float: right;
+    margin-top: 9px;
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+* html .group {
+    zoom: 1;
+}
+
+
+/* IE6 */
+
+*:first-child+html .group {
+    zoom: 1;
+}
+
+
+/* IE7 */
